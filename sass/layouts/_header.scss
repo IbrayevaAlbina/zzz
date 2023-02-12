@@ -1,0 +1,15 @@
+.header {
+    background: var(--white);
+    border-bottom: 1px solid #ececec;
+  }
+  
+  
+  .header-span,
+  .footer-span {
+    color: var(--blue);
+  }
+
+  .container__header {
+    display: flex;
+    align-items: center;
+  }

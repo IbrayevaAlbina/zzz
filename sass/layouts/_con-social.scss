@@ -1,0 +1,91 @@
+.contacts-social__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & {
+        display: flex;
+      }
+      
+  }
+  
+  .contacts-social__link {
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--broun);
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    transition: color var(--transition-dur-and-func),
+      fill var(--transition-dur-and-func);
+
+  &:focus {
+        color: #188ce8;
+      }
+    
+    
+  &:focus  .contacts-social__icon--envelop  {
+        color: #188ce8;
+        fill: var(--blue);
+    }
+    
+  &:focus  .contacts-social__icon--smartphone {
+    
+        color: #188ce8;
+        fill: var(--blue);
+    }
+      
+
+
+  
+  }
+
+ 
+  
+
+
+  .contacts-social__item {
+    list-style-type: none;
+    text-decoration: none;
+    gap: 30px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+      }
+
+    &:hover .contacts-social__link {
+        fill: var(--blue);
+        color: var(--blue);
+      }
+
+
+  }
+
+
+  
+  
+  .contacts-social__icon--envelop {
+    margin-right: 10px;
+    fill: var(--broun);
+    width: 16px;
+    height: 12px;
+  }
+  
+  .contacts-social__icon--smartphone {
+    fill: var(--broun);
+    width: 12px;
+    height: 16px;
+    margin-right: 10px;
+  }
+  
+
+  .contacts-social__icon--envelop,
+  .contacts-social__icon--smartphone {
+    transition: fill var(--transition-dur-and-func);
+  }
+
+ 

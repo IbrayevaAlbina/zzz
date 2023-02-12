@@ -1,0 +1,70 @@
+.lean-clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  
+  .lean-clients__title {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+  
+  .lean-clients__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  .lean-clients__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  .lean-clients__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    width: 170px;
+    height: 92px;
+    left: 215px;
+    top: 2490px;
+  
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    cursor: pointer;
+    fill: #afb1b8;
+    transition: border-color var(--transition-dur-and-func);
+
+
+    &:hover {
+        fill: var(--blue);
+        border-color: var(--blue);
+      }
+      
+    &:hover .lean-clients__icon {
+        fill: var(--blue);
+        border-color: var(--blue);
+      }
+    &:focus {
+        border-color: var(--blue);
+      }
+    &:focus .lean-clients__icon {
+        fill: var(--blue);
+        border-color: var(--blue);
+      }
+  }
+  
+  .lean-clients__icon {
+    color: var(--broun);
+    width: 106px;
+    height: 60px;
+  
+    fill: #afb1b8;
+  
+    transition: fill var(--transition-dur-and-func);
+  }
+  
